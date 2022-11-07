@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'tungstenbold';
+    src: url('/fonts/tungsten-bold-webfont.woff2') format('woff2'),
+         url('/fonts/tungsten-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Copyright (C) 2004, 2009 Hoefler & Frere-Jones. http://www.typography.com */
+/* A copy of the End-User License Agreement to this font software can be found online at http://www.typography.com/support/eula.html. */
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+:root{
+    --bg-color: #0E1822;
+    --font: tungstenbold;
+}
+
+body{
+    background-color: var(--bg-color);
+
+}
+.agent{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.agent > img{
+    height: 500px;
+}
+
+#name{
+    color: white;
+    font-size: 5vw;
+    font-family: var(--font);
+}
+#desc{
+    color: white;
+    font-size: 23px;
+    font-family: var(--font);
+    font-weight: 100;
+    width: 60%;
+    text-align: center;
+}
