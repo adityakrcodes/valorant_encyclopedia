@@ -21,7 +21,12 @@
 
 body{
     background-color: var(--bg-color);
+    font-family: var(--font);
 
+}
+.logo{
+    color: white;
+    font-size: 3vw;
 }
 .agent{
     display: flex;
@@ -30,8 +35,23 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
-
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-link{
+    color: white;
+    list-style: none;
+    justify-self: center;
+    font-size: 1.5vw;
+    
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap:26px;
+}
 
 .agent > img{
     height: 500px;
@@ -40,12 +60,10 @@ body{
 #name{
     color: white;
     font-size: 5vw;
-    font-family: var(--font);
 }
 #desc{
     color: white;
     font-size: 23px;
-    font-family: var(--font);
     font-weight: 100;
     width: 60%;
     text-align: center;
